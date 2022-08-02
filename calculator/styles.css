@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(to bottom right,rgb(51, 164, 229),rgb(10, 227, 140));
+    font-family: cursive;
+    overflow: hidden;
+    font-weight: bold;
+}
+.container{
+    position: relative;
+    left: 40%;
+    top: 30%;   
+    color: black;
+    font-family: Gotham Rounded,sans-serif;
+
+}
+.single{
+    width: 40px;
+    height: 50px;
+    margin-top: 0px;
+}
+.double{
+    width: 85px;
+    height: 50px;
+    margin-bottom: 0px;    
+}
+button{
+    background-color: rgb(148, 236, 236);
+    margin: 0;
+    font-size: 24px;
+    border: 1.3px solid white;
+    border-radius: 5px;
+}
+.display{
+    background-color: black;
+    color: white;    
+    width: 11.4%;
+    height: 10%;
+    position: relative;
+    top: -3px;
+    border-radius: 7px;    
+    word-wrap: break-word;
+    word-break: break-all;
+    padding: 10px;
+}
+.display > span{
+    position:absolute;
+    left: 80%;
+    top: 70%;
+    font-size: 18px;
+    font-weight: normal;
+}
+.exception{
+    font-size: 14px;
+    position: relative;
+    top: -3px;
+}

@@ -1,0 +1,71 @@
+.customizer{
+    background-color: lightgray;
+    width: 80%;
+    height: 30%;
+    margin-top: 20px;
+    margin-left: 6%;
+    border-radius: 5px;    
+    margin-bottom: 3%;
+}
+body{
+    font-family: cursive;
+    box-sizing: none;
+}
+li{
+    display: inline-block;
+    margin: 30px;
+}
+.chooseWhite, .normal{
+    background-color: rgb(31, 100, 239);
+    margin-left: 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+.chooseColor, .high{
+    background-color: white;
+    margin-right: 0;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+}
+.Style{
+    border-radius: 0px;
+    width: 80px;
+    height: 30px;
+}
+.secondaryContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picture{
+    border: 2px solid black;
+    height: 300px;
+    width: 23%;
+    position: relative;
+    left: -20%;
+    top: -3%;
+    margin: 0;
+    /* align-items: center;
+    justify-content: center;
+    display: inline-block; */
+}
+img{
+    height: 200px;  
+    position: relative;
+    top: 20%;  
+    left: 5%;    
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(17, 227, 17);
+    border-radius: 10px;
+    color: white;
+}
+.reset{
+    width: 100px;
+    height: 30px;
+    background-color:rgb(27, 152, 223);
+    color: white;
+}

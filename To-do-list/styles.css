@@ -1,0 +1,42 @@
+.container{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 40%;
+    height: 150px;
+    align-items: center;
+    position: relative;
+    top: 20%;
+    left: 25%;
+}
+.heading{
+    align-items: center;
+    margin-left: 30%;
+}
+.write{
+    background: aqua;
+    height: 2.1em;
+    color: #aaa;
+}
+.main{
+    display: inline-block;
+    margin-left: 15%;
+}
+.main1{
+    display: inline-block;
+}
+.write:focus{
+    color: black;
+}
+.jscontainer{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.listul{
+    display: inline-block;
+    list-style-type: none;
+}
+.num,.task, .cross, .done{
+    display: inline-block;
+}
